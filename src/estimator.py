@@ -35,16 +35,16 @@ class CovidEstimator:
       weeks_to_days = int(period) * 7
       factor = weeks_to_days // 3
       infections = currently_infected * (2 ** factor)
-      return infections
+      return float(infections)
 
     elif period_type == "months":
       months_to_days = int(period) * 30
       factor = months_to_days // 3
       infections = currently_infected * (2**factor)
-      return infections
+      return float(infections)
     
     else:
       factor = int(period) // 3
       infections = currently_infected * (2 ** factor)
-      return infections
+      return float(infections)
 
