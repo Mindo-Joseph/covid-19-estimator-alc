@@ -10,21 +10,13 @@ def estimator(data):
     "estimates": {
       "impact": {
             "currentlyInfected": currentInfectedImpact,
-            "infectionsByRequestedTime":infectionsByRequestedTimeImpact ,
-            "severeCasesByRequestedTime": ,
-            "hospitalBedsByRequestedTime": ,
-            "casesForICUByRequestedTime": ,
-            "casesForVentilatorsByRequestedTime": ,
-            "dollarsInFlight": 
+            "infectionsByRequestedTime":infectionsByRequestedTimeImpact 
+            
         },
         "severe": {
             "currentlyInfected": currentInfectedSevere,
-            "infectionsByRequestedTime":infectionsByRequestedTimeSevere ,
-            "severeCasesByRequestedTime": ,
-            "hospitalBedsByRequestedTime": ,
-            "casesForICUByRequestedTime": ,
-            "casesForVentilatorsByRequestedTime": ,
-            "dollarsInFlight": 
+            "infectionsByRequestedTime":infectionsByRequestedTimeSevere 
+            
         }
     }
   }
