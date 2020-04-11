@@ -5,8 +5,8 @@ def estimator(data):
   # The infections by requested_time
   infectionsByRequestedTimeImpact = CovidEstimator.infectionsByTime(data["periodType"],data["timeToElapse"],currentInfectedImpact)
   infectionsByRequestedTimeSevere = CovidEstimator.infectionsByTime(data["periodType"],data["timeToElapse"],currentInfectedSevere)
+  
   output_data = {
-    "data":data,
     "estimates": {
       "impact": {
             "currentlyInfected": currentInfectedImpact,
