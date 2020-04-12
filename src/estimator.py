@@ -78,7 +78,7 @@ def estimator(data):
         "data": data,
         "impact": {
             "currentlyInfected": currentlyInfectedImpact,
-            "infectionsByRequestedTime": bestCase_byTime,
+            "infectionsByRequestedTime": infectionsByTimeImpact,
             "severeCasesByRequestedTime": casesByRequestedTimeImpact,
             "hospitalBedsByRequestedTime": bestCase_avalilableBeds,
             "casesForICUByRequestedTime": bestCase_requiringICU,
