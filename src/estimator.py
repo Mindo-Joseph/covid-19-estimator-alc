@@ -65,7 +65,7 @@ def estimator(data):
     bestCase_loss = Covid19Cases.estimateEconomicLoss(
         data["periodType"], data['timeToElapse'],
         data["region"]["avgDailyIncomePopulation"],
-        data["region"]["avgDailyIncomeInUSD"], bestCase_byTime)
+        data["region"]["avgDailyIncomeInUSD"], infectionsByTimeImpact)
 
     # Estimated worst case economic loss
 
